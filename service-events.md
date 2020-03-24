@@ -12,8 +12,7 @@
 | --- | --- | --- |
 | GET /api/v1/tickets   | tickets.list() | get all Tickets |
 | GET /api/v1/tickets/ticketsClosedInPastMonth    | tickets.ticketsClosedInPastMonth() | get all Tickets closed in one Month |
-| PUT /api/v1/tickets /1/assign   | tickets.update() |
-assign ticket to agent |
+| PUT /api/v1/tickets /1/assign   | tickets.update() | assign ticket to agent |
 | POST /api/v1/users/1/tickets   | tickets.create() | create new Ticket|
 | GET /api/v1/users/1/tickets   | tickets.listByUserId() | get all Tickets created by a user |
 | GET /api/v1/users/1/tickets/assignedToTickets   | tickets.listAssignedToTickets() | get all Tickets assigned to an agent |
