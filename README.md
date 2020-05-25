@@ -1,7 +1,7 @@
 # CareTeam
 
 # ZHICHI
-* A customer support ticketing system for korapay
+* A customer support ticketing system
 
 
 ## Tools Used

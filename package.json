@@ -1,13 +1,14 @@
 {
   "name": "zhichi",
   "version": "1.0.0",
-  "description": "a customer support ticketing system for korapay",
+  "description": "a customer support ticketing system",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "NODE_ENV=test mocha tests/**/*.js --timeout 10000 --exit",
     "coverage": "nyc --reporter=lcov --reporter=text-lcov npm test",
-    "cypress:open": "node_modules/.bin/cypress open"
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:dev": "node_modules/.bin/start-test http://localhost:3000/bootstrap.html cypress:open"
   },
   "author": "jumoke oladimeji",
   "license": "ISC",
